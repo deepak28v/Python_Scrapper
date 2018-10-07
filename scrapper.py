@@ -47,6 +47,5 @@ test_df = pd.DataFrame({'movie': names,
                        'imdb': imdb_ratings,
                        'metascore': metascores,
                        'votes': votes})
-print(test_df.info())
 print(test_df)
 
